@@ -1,0 +1,26 @@
+p {
+  color: black;
+  font-family: verdana;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+.table th {
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+.table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+/*# sourceMappingURL=doc.css.map */

@@ -1,0 +1,30 @@
+$text-color: black;
+$space: 10px;
+$normal-source: 1em;
+$font: verdana;
+
+p {
+  color: $text-color;
+  font-family: $font;
+  padding: $space;
+  font-size: $normal-source;
+}
+.table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+
+  th{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+
+  td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+  }
+}
